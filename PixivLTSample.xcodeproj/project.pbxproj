@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30977C5119D9BC1E00BB63B8 /* SwiftExtendObjcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30977C5019D9BC1E00BB63B8 /* SwiftExtendObjcViewController.swift */; };
 		30CA7D2219D80345003500C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CA7D2119D80345003500C1 /* AppDelegate.swift */; };
 		30CA7D2719D80345003500C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30CA7D2519D80345003500C1 /* Main.storyboard */; };
 		30CA7D2919D80345003500C1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30CA7D2819D80345003500C1 /* Images.xcassets */; };
@@ -30,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		30977C5019D9BC1E00BB63B8 /* SwiftExtendObjcViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftExtendObjcViewController.swift; sourceTree = "<group>"; };
 		30CA7D1C19D80345003500C1 /* PixivLTSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PixivLTSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30CA7D2019D80345003500C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30CA7D2119D80345003500C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 				30FA5E0219D865B6002BF74F /* ObjcExtendObjcViewController.h */,
 				30FA5E0319D865B6002BF74F /* ObjcExtendObjcViewController.m */,
 				30FA5E0519D865D8002BF74F /* SwiftExtendSwiftViewController.swift */,
+				30977C5019D9BC1E00BB63B8 /* SwiftExtendObjcViewController.swift */,
 			);
 			path = extend;
 			sourceTree = "<group>";
@@ -254,6 +257,7 @@
 				30CA7D4619D803CA003500C1 /* ViewController.m in Sources */,
 				30CA7D2219D80345003500C1 /* AppDelegate.swift in Sources */,
 				30FA5E0019D857C3002BF74F /* BaseSwiftViewController.swift in Sources */,
+				30977C5119D9BC1E00BB63B8 /* SwiftExtendObjcViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
