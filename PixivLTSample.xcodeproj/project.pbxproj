@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3056E59619DE3487000CEBA1 /* ObjcFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3056E59519DE3487000CEBA1 /* ObjcFunctions.m */; };
+		3056E59819DE35E3000CEBA1 /* SwiftFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3056E59719DE35E3000CEBA1 /* SwiftFunctions.swift */; };
 		30977C5119D9BC1E00BB63B8 /* SwiftExtendObjcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30977C5019D9BC1E00BB63B8 /* SwiftExtendObjcViewController.swift */; };
 		30CA7D2219D80345003500C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CA7D2119D80345003500C1 /* AppDelegate.swift */; };
 		30CA7D2719D80345003500C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30CA7D2519D80345003500C1 /* Main.storyboard */; };
@@ -31,6 +33,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3056E59419DE3487000CEBA1 /* ObjcFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjcFunctions.h; sourceTree = "<group>"; };
+		3056E59519DE3487000CEBA1 /* ObjcFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjcFunctions.m; sourceTree = "<group>"; };
+		3056E59719DE35E3000CEBA1 /* SwiftFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftFunctions.swift; sourceTree = "<group>"; };
 		30977C5019D9BC1E00BB63B8 /* SwiftExtendObjcViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftExtendObjcViewController.swift; sourceTree = "<group>"; };
 		30CA7D1C19D80345003500C1 /* PixivLTSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PixivLTSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30CA7D2019D80345003500C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -70,6 +75,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3056E59319DE3468000CEBA1 /* methods */ = {
+			isa = PBXGroup;
+			children = (
+				3056E59419DE3487000CEBA1 /* ObjcFunctions.h */,
+				3056E59519DE3487000CEBA1 /* ObjcFunctions.m */,
+				3056E59719DE35E3000CEBA1 /* SwiftFunctions.swift */,
+			);
+			path = methods;
+			sourceTree = "<group>";
+		};
 		30CA7D1319D80345003500C1 = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +111,7 @@
 				30CA7D4519D803CA003500C1 /* ViewController.m */,
 				30FA5DFB19D855C0002BF74F /* base */,
 				30FA5E0119D8659B002BF74F /* extend */,
+				3056E59319DE3468000CEBA1 /* methods */,
 				30CA7D2519D80345003500C1 /* Main.storyboard */,
 				30CA7D2819D80345003500C1 /* Images.xcassets */,
 				30CA7D2A19D80345003500C1 /* LaunchScreen.xib */,
@@ -252,11 +268,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				30FA5E0619D865D8002BF74F /* SwiftExtendSwiftViewController.swift in Sources */,
+				3056E59619DE3487000CEBA1 /* ObjcFunctions.m in Sources */,
 				30FA5E0419D865B6002BF74F /* ObjcExtendObjcViewController.m in Sources */,
 				30FA5DFE19D855D3002BF74F /* BaseObjcViewController.m in Sources */,
 				30CA7D4619D803CA003500C1 /* ViewController.m in Sources */,
 				30CA7D2219D80345003500C1 /* AppDelegate.swift in Sources */,
 				30FA5E0019D857C3002BF74F /* BaseSwiftViewController.swift in Sources */,
+				3056E59819DE35E3000CEBA1 /* SwiftFunctions.swift in Sources */,
 				30977C5119D9BC1E00BB63B8 /* SwiftExtendObjcViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
